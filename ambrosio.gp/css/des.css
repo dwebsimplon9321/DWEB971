@@ -1,0 +1,36 @@
+
+
+/* les des */
+
+div.plateau {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: green;
+    border: 10px solid darkslategrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.d {
+    background-color: white;
+    width: 85px;
+    height: 85px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.d.d1, div.d.d2 {
+    line-height: 4;
+}
+
+div.d.d1, div.d.d2, div.d.d3,
+div.d.d4, div.d.d5, div.d.d6 {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: transparent;  
+    text-shadow: 0 0 0 black;
+    text-align: center;
+}
